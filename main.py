@@ -338,4 +338,7 @@ print("""                  .-:?,Z?:&$dHH##b\\_
                   ' -==pHMMH##HH#'''""")
 print('\033[2J', end = "")
 print("\u001b[23A", end = "")
-print('The End')
+print('\u001b[0m')
+print('THE END')
+sleep(1)
+print('\033[2J', end = "")
