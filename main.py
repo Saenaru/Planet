@@ -23,11 +23,10 @@ print("""                   _-o#&&*''''?d:>b\\_
           `&.                             .
             `~,   .                     ./
                 . _                  .-PP
-                  '`--._,dd###pp='''
-""")
+                  '`--._,dd###pp='''""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  .ovr:HMM#?:`' >b\\_
               .,:&Hi' `'   '' \\\\|&bSMHo_
             oHMMM#*}          `?&dMMMMMMHo.
@@ -52,8 +51,8 @@ print("""                  .ovr:HMM#?:`' >b\\_
               '-\\   .,               .-`
                   '-:b~\\\\_,oddq==--'""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _oo##'9MMHb':'-,o_
               .vM':HH$'    '''  '' -\\7*_
            .oHMMMHMH#9:          '\\bMMMMHo.
@@ -78,8 +77,8 @@ print("""                  _oo##'9MMHb':'-,o_
               ` .         .,         .-
                   '-.-~ooHH__,,v~--`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _,\\?dZkMHF&$*q#b..
               .//9MMMMMMM?:'HM\\\\'`-''`..
            ..`  :MMMMMMMMMMHMMMMH?_    `-\\
@@ -104,8 +103,8 @@ print("""                  _,\\?dZkMHF&$*q#b..
               ' .             ._     .-
                   '-. -voboo#&:,-.-`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _\\oo\\?ddk9MRbS>v\\_
               ..:>*''MMMMMMMMM:?|H?$?-.
            ..- -     'HMMMMMMMMMMHMMMH\\_-.
@@ -130,8 +129,8 @@ print("""                  _\\oo\\?ddk9MRbS>v\\_
               ` .                .. ..-`
                   '-. .\\ooooboo<^.-`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _o\\:,??\\??MR9#cb\\_
               .v/''':&#''#HMMMMMMM$?*d\\.
            ..~' - -`      `'#MMMMMMMMMMMHv.
@@ -156,8 +155,8 @@ print("""                  _o\\:,??\\??MR9#cb\\_
               '-..                  _.-
                   '---.._\\o,oov+--''""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _,oc>?_:b?o?HH#b\\_
               .v/99*''' '*H#''*HMMMMMZ,_
             oH* /'   -   '      '`#MMMMM#o.
@@ -182,8 +181,8 @@ print("""                  _,oc>?_:b?o?HH#b\\_
               ' .                    .-
                  ```^==\\_.,,,ov--\\-`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _,o#bH\\??::?o?cbo_
               .o#MH#**SH''' '`*H#'*#MHo_
             oHMMMH^  ^'    -  `      '*HHo.
@@ -208,8 +207,8 @@ print("""                  _,o#bH\\??::?o?cbo_
                - .                  ..-
                   '`*#d##c.._\\v----`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _oo#H&d#b?\\b:_>>\\_
               .oHMMMMMMH*'*9R''-``*#P\\-_
             oHMMMMMMMMM$  .'       '   `^-
@@ -234,8 +233,8 @@ print("""                  _oo#H&d#b?\\b:_>>\\_
               ' .                    .-
                   '`*##HMH##:__,-.-`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _,dd#HMb&dHo?\\?:\\_
               .oHMMMMMMMMMMMH***9P'`'\\v.
             oHMMMMMMMMMMMMMMM>  `'      -.
@@ -260,8 +259,8 @@ print("""                  _,dd#HMb&dHo?\\?:\\_
               `  .                   .-
                   '`'#HHMMMMM#<>..-`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _,,>#b&HMHd&&bb>\\_
               _oHMMMMMMMMMMMMMMMMH**H:.
             oHMMMMMMMMMMMMMMMMMMMM#v`?  `.
@@ -286,8 +285,8 @@ print("""                  _,,>#b&HMHd&&bb>\\_
               '- .                   .-`
                   '`\\bqHMMMMMMHHb--`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  _,<_:&S6dHHHb&bb\\_
               .odHMMMMMMMMMMMMMMMMMMM}-_
            .oHMMMMMMMMMMMMMMMMMMMMMMMM#d:.
@@ -312,8 +311,8 @@ print("""                  _,<_:&S6dHHHb&bb\\_
               ` .                    . `
                   '--##HH#HMMMHH#''`""")
 sleep(1)
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print("""                  .-:?,Z?:&$dHH##b\\_
                ,:bqRMMMMMMMMMMMMMMMMMHo.
             .?HHHMMMMMMMMMMMMMMMMMMMMMMMHo.
@@ -337,6 +336,6 @@ print("""                  .-:?,Z?:&$dHH##b\\_
            ` .               -          .-
               ` .                    .-
                   ' -==pHMMH##HH#'''""")
-print('\033[2J')
-print("\u001b[25A")
+print('\033[2J', end = "")
+print("\u001b[23A", end = "")
 print('The End')
